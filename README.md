@@ -32,7 +32,7 @@ Once pulled over from gitHub onto your local machine.
 
 Here is a screenshot of the actual webpage.
  
- ![Screenshot](assets\images\screenshot.png)
+ ![Screenshot](Assets/images/screenshot.png)
 <br>
 ## Credits
 https://bootcamp.unh.edu/ 
