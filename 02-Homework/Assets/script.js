@@ -12,9 +12,6 @@ let aside = document.querySelector('aside');
 
 
 
-
-
-
 function getCurrentApi(userPick) {
     main.style.display = "block";
 
@@ -42,7 +39,7 @@ fetch(weatherData)
         .then(function(multiWeatherData) {
         
 
-            console.log(multiWeatherData);
+
 
             $("#forcast0").empty();
 
@@ -85,8 +82,6 @@ fetch(weatherData)
         else if (uvValue > 8) {
             colorChange.classList.add("red");
         }
-
-        console.log(uvValue);
         
       
       
@@ -98,7 +93,7 @@ fetch(weatherData)
             let currentElement = document.querySelector("#forcast" + i);
             
             let currentDate = moment().add(i, 'days');
-            console.log(currentDate)
+            
 
            
             
@@ -206,30 +201,3 @@ function displayHistory() {
 displayHistory();
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-// make searched city to be able to be stored by city name and can be accessed again by city name
-// user is able to view city name, date, and icon of weather conditions, temperature, the humidity, the wind speed, and the uv index
-// When uv index is viewed user can can a color that indacates conditions
-// user is able to see a 5 day forcast (check for more info)
-// make it so user can view previous data again.
