@@ -1,90 +1,69 @@
-# 06 Server-Side APIs: Weather Dashboard
-
-## Your Task
-
-Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
-
-Use the [OpenWeather One Call API](https://openweathermap.org/api/one-call-api) to retrieve weather data for cities. Read through the documentation for setup and usage instructions. You will use `localStorage` to store any persistent data.
-
-## User Story
-
+# Weather Application
+## Description
 ```
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
+
 ```
 
 ## Acceptance Criteria
 
-```
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-WHEN I view the UV index
-THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
-```
 
-## Mock-Up
+To create a weather dashboard with form inputs where user can search for a city and is then presented with current and future conditions for that city and that city is added to the search history. Then when user wants to view current weather conditions for that city, they presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index. Then when they view the UV index, they presented with a color that indicates whether the conditions are favorable, moderate, or severe. Next when they view future weather conditions for that city, they presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity. Then when they click on a city in the search history then they are again presented with current and future conditions for that city
 
-The following image shows the web application's appearance and functionality:
+## Table of Contents
 
-![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta.](./Assets/06-server-side-apis-homework-demo.png)
+- [Installation](#installation)
+- [Screenshot](#screenshot)
+- [Website](#website)
+- [Credits](#credits)
+- [License](#license)
 
-## Grading Requirements
 
-This homework is graded based on the following criteria: 
+## Installation
+Once pulled over from gitHub onto your local machine.
+- First is to open up Microsoft Visual Studio Code.
 
-### Technical Acceptance Criteria: 40%
+- Then over on the side bar click ad folder to workspace
 
-* Satisfies all of the above acceptance criteria plus the following:
+- Once you see on the files, to view in browser, right click index.html under workspace and then click Reveal in file explorer.
 
-    * Uses the OpenWeather API to retrieve weather data.
+- Once the window comes up with the file. Just double click the file and the file will open up in the browser of your choice. 
 
-    * Uses `localStorage` to store persistent data.
+## Screenshot
 
-### Deployment: 32%
+Here is a screenshot of the actual webpage.
+ 
+ ![Screenshot](assets/images/screenshot.png)
+<br>
+## Credits
+https://bootcamp.unh.edu/ 
 
-* Application deployed at live URL.
+https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
-* Application loads with no errors.
+https://choosealicense.com/
 
-* Application GitHub URL submitted.
 
-* GitHub repository that contains application code.
+## Website
+https://coreynance.github.io/WeekSixAssignment/
 
-### Application Quality: 15%
+## License
+MIT License
 
-* Application user experience is intuitive and easy to navigate.
+Copyright (c) [2021] [Corey Nance]
 
-* Application user interface style is clean and polished.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-* Application resembles the mock-up functionality provided in the homework instructions.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a readme describing the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
