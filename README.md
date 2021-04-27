@@ -43,7 +43,7 @@ https://choosealicense.com/
 
 
 ## Website
-https://coreynance.github.io/WeekSixAssignment/
+https://coreynance.github.io/WeatherApplication/
 
 ## License
 MIT License
